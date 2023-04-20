@@ -1,0 +1,24 @@
+?which = usr.sh
+?how = ActiveSSH
+PATH_VARIABLE() == pth-0
+ROOT_VARIABLE() == rt-sh
+when "pth-0" ssh into == "rt-sh"
+
+def Cli() == {[
+
+takein == ";@2048"
+takeout == ':@ ~usr  mnt'
+
+input == {color #0011WB}
+
+output == {Nito Linux --- 1.0 BETA}
+                 ::prompt; = ( / ⤇)
+               
+   promptin == "pth-0"
+   promptout == "rt-sh"
+   
+   ]}
+   
+   ;runFunc CLI
+   
+   :runFile usr.pth in /mnt/linuxfoot/
